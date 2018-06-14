@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb2f94c-12c9-498b-a72c-c3f2453141a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/LoginTest_CSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/LoginTest_ID_Name_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/LoginTest_XPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Wait/AlertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Wait/Calendar_Automation_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Wait/Explicit_Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Wait/Header_Automation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Wait/Implicit_Wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,23 +23,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="391">
               <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest.java">
+      <file leaf-file-name="Explicit_Wait.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Explicit_Wait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+            <state relative-caret-position="-18">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Login_Test_FF#0;class#LoginTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header_Automation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Header_Automation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlertTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/AlertTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,6 +74,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>departTD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>departList</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,6 +90,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/LoginTest_ID_Name_Examples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/LoginTest_XPath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/LoginTest_CSS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/Wait/Implicit_Wait.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/Wait/Header_Automation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/Wait/Explicit_Wait.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/Wait/Calendar_Automation_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/Wait/AlertTest.java" />
       </list>
     </option>
   </component>
@@ -79,6 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,13 +157,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maventestjaredscodejava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="Wait" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,6 +179,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="selenium.Wait" />
+      <recent name="selenium" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,23 +198,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.Login_Test_IE">
+  <component name="RunManager" selected="JUnit.AlertTest.HomePage_Validation_FF">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LoginTest.Login_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest.HomePage_Validation_FF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.*" />
+          <option name="PATTERN" value="selenium.Wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.LoginTest" />
-      <option name="METHOD_NAME" value="Login_Test" />
+      <option name="PACKAGE_NAME" value="selenium.Wait" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Wait.AlertTest" />
+      <option name="METHOD_NAME" value="HomePage_Validation_FF" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -167,19 +225,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoginTest.Login_Test_GC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Calendar_Automation_Test.HomePage_Validation_FF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.*" />
+          <option name="PATTERN" value="selenium.Wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.LoginTest" />
-      <option name="METHOD_NAME" value="Login_Test_GC" />
+      <option name="PACKAGE_NAME" value="selenium.Wait" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Wait.Calendar_Automation_Test" />
+      <option name="METHOD_NAME" value="HomePage_Validation_FF" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -190,19 +248,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoginTest.Login_Test_IE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Explicit_Wait.Login_Test_FF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.*" />
+          <option name="PATTERN" value="selenium.Wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.LoginTest" />
-      <option name="METHOD_NAME" value="Login_Test_IE" />
+      <option name="PACKAGE_NAME" value="selenium.Wait" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Wait.Explicit_Wait" />
+      <option name="METHOD_NAME" value="Login_Test_FF" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Header_Automation.HomePage_Validation_FF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="selenium.Wait" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Wait.Header_Automation" />
+      <option name="METHOD_NAME" value="HomePage_Validation_FF" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Implicit_Wait.Login_Test_FF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="selenium.Wait" />
+      <option name="MAIN_CLASS_NAME" value="selenium.Wait.Implicit_Wait" />
+      <option name="METHOD_NAME" value="Login_Test_FF" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -252,15 +356,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoginTest.Login_Test" />
-      <item itemvalue="JUnit.LoginTest.Login_Test_GC" />
-      <item itemvalue="JUnit.LoginTest.Login_Test_IE" />
+      <item itemvalue="JUnit.Implicit_Wait.Login_Test_FF" />
+      <item itemvalue="JUnit.Explicit_Wait.Login_Test_FF" />
+      <item itemvalue="JUnit.Header_Automation.HomePage_Validation_FF" />
+      <item itemvalue="JUnit.Calendar_Automation_Test.HomePage_Validation_FF" />
+      <item itemvalue="JUnit.AlertTest.HomePage_Validation_FF" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.Login_Test_IE" />
-        <item itemvalue="JUnit.LoginTest.Login_Test_GC" />
-        <item itemvalue="JUnit.LoginTest.Login_Test" />
+        <item itemvalue="JUnit.AlertTest.HomePage_Validation_FF" />
+        <item itemvalue="JUnit.Calendar_Automation_Test.HomePage_Validation_FF" />
+        <item itemvalue="JUnit.Explicit_Wait.Login_Test_FF" />
+        <item itemvalue="JUnit.Header_Automation.HomePage_Validation_FF" />
+        <item itemvalue="JUnit.Implicit_Wait.Login_Test_FF" />
       </list>
     </recent_temporary>
   </component>
@@ -278,35 +386,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Login_Test - 2018.06.14 at 01h 39m 18s.xml">
-      <configuration name="LoginTest.Login_Test" configurationId="JUnit" />
+    <history-entry file="Implicit_Wait_Login_Test_FF - 2018.06.14 at 05h 39m 45s.xml">
+      <configuration name="Implicit_Wait.Login_Test_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test - 2018.06.14 at 01h 42m 39s.xml">
-      <configuration name="LoginTest.Login_Test" configurationId="JUnit" />
+    <history-entry file="Explicit_Wait_Login_Test_FF - 2018.06.14 at 06h 16m 17s.xml">
+      <configuration name="Explicit_Wait.Login_Test_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_GC - 2018.06.14 at 02h 23m 18s.xml">
-      <configuration name="LoginTest.Login_Test_GC" configurationId="JUnit" />
+    <history-entry file="Header_Automation_HomePage_Validation_FF - 2018.06.14 at 06h 29m 44s.xml">
+      <configuration name="Header_Automation.HomePage_Validation_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_GC - 2018.06.14 at 02h 24m 39s.xml">
-      <configuration name="LoginTest.Login_Test_GC" configurationId="JUnit" />
+    <history-entry file="Explicit_Wait_Login_Test_FF - 2018.06.14 at 06h 40m 38s.xml">
+      <configuration name="Explicit_Wait.Login_Test_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 41m 07s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="Explicit_Wait_Login_Test_FF - 2018.06.14 at 06h 44m 39s.xml">
+      <configuration name="Explicit_Wait.Login_Test_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 43m 17s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="Calendar_Automation_Test_HomePage_Validation_FF - 2018.06.14 at 07h 07m 09s.xml">
+      <configuration name="Calendar_Automation_Test.HomePage_Validation_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 45m 32s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="Explicit_Wait_Login_Test_FF - 2018.06.14 at 07h 09m 22s.xml">
+      <configuration name="Explicit_Wait.Login_Test_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 48m 01s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="Calendar_Automation_Test_HomePage_Validation_FF - 2018.06.14 at 07h 10m 38s.xml">
+      <configuration name="Calendar_Automation_Test.HomePage_Validation_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 51m 09s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="AlertTest_HomePage_Validation_FF - 2018.06.14 at 07h 30m 01s.xml">
+      <configuration name="AlertTest.HomePage_Validation_FF" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Login_Test_IE - 2018.06.14 at 02h 57m 44s.xml">
-      <configuration name="LoginTest.Login_Test_IE" configurationId="JUnit" />
+    <history-entry file="AlertTest_HomePage_Validation_FF - 2018.06.14 at 07h 31m 30s.xml">
+      <configuration name="AlertTest.HomePage_Validation_FF" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -314,18 +422,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32861635" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32861635" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22955975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29874215" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -343,17 +451,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="391">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
+        <state relative-caret-position="1853">
           <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -364,8 +477,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest_XPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest_CSS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MavenTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest_ID_Name_Examples.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
           <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Login_Test_FF#0;class#LoginTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Implicit_Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Calendar_Automation_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Header_Automation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/Explicit_Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/Wait/AlertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
