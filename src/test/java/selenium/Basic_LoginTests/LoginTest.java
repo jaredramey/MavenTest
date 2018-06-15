@@ -1,4 +1,4 @@
-package selenium;
+package selenium.Basic_LoginTests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,0 +1,39 @@
+record1:
+ username: Hoop
+ password: Hoop
+ TripType: oneway
+ NumofPass: 1
+ From: New York
+ DepartMonth: January
+ DepartDate: 14
+ ArrivalCity: London
+ ReturnMonth: February
+ ReturnDate: 12
+ ServiceClass: Coach
+ Airline: Unified Airlines
+record2:
+ username: Hoop
+ password: Hoop
+ TripType: roundtrip
+ NumofPass: 2
+ From: London
+ DepartMonth: February
+ DepartDate: 15
+ ArrivalCity: Paris
+ ReturnMonth: March
+ ReturnDate: 13
+ ServiceClass: Business
+ Airline: Pangea Airlines
+record3:
+ username: Hoop
+ password: Hoop
+ TripType: oneway
+ NumofPass: 3
+ From: Seattle
+ DepartMonth: March
+ DepartDate: 16
+ ArrivalCity: Portland
+ ReturnMonth: April
+ ReturnDate: 14
+ ServiceClass: First
+ Airline: Blue Skies Airlines

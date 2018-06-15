@@ -1,4 +1,4 @@
-package selenium;
+package selenium.Basic_LoginTests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.junit.Assert.fail;
 
-public class LoginTest_XPath
+public class LoginTest_CSS
 {
     private static String DRIVERPATH_GECKO = "C:/Users/Jared/Desktop/Drivers/geckodriver.exe";
     private static String DRIVERPATH_CHROME = "C:/Users/Jared/Desktop/Drivers/chromedriver.exe";
@@ -31,13 +31,13 @@ public class LoginTest_XPath
         driver.manage().window().maximize();
 
         //Fill out username
-        driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(USER);
+        driver.findElement(By.cssSelector("input[name='userName']")).sendKeys(USER);
 
         //Fill out password
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys(PASS);
+        driver.findElement(By.cssSelector("input[name='password']")).sendKeys(PASS);
 
         //Click on sign in button
-        driver.findElement(By.xpath("//input[@value='Login']")).click();
+        driver.findElement(By.cssSelector("input[Value='Login']")).click();
 
         //Wait 5 seconds for load time
         Thread.sleep(5000);
