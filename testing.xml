@@ -2,11 +2,14 @@
 <suite name="TestNG Example">
     <!--<parameter name="username" value="Hoop"></parameter>-->
     <!--<parameter name="password" value="Hoop"></parameter>-->
-    <test name="Smoke Test">
+    <test name="Regression Test" parallel="classes" thread-count="3">
 
         <classes>
             <!--<class name="selenium.TestNG.LoginTest_TestNG_Parameterized"></class>-->
-            <class name="selenium.TestNG.LoginTest_TestNG_DataProvider"></class>
+            <!--<class name="selenium.TestNG.LoginTest_TestNG_DataProvider"></class>-->
+            <class name="selenium.DockerSwarm.Swarm_Test_FireFox"></class>
+            <class name="selenium.DockerSwarm.Swarm_Test_FireFox2"></class>
+            <class name="selenium.DockerSwarm.Swarm_Test_FireFox3"></class>
         </classes>
     </test>
 </suite>

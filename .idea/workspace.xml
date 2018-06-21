@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb2f94c-12c9-498b-a72c-c3f2453141a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hubConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-server-standalone-3.12.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_FireFox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_IE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-swarm.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Basic_LoginTests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Basic_LoginTests/LoginTest_CSS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Basic_LoginTests/LoginTest_ID_Name_Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Basic_LoginTests/LoginTest_XPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/DataDrivenFramework/Excel/Data_Driven_Framework_Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/DataDrivenFramework/Postgres/DB_Data_Driven_Framework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/DataDrivenFramework/YAMLExample/YAML_Data_Driven_Framework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/TestNG/LoginTest_TestNG_DataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/TestNG/LoginTest_TestNG_Dependency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/TestNG/LoginTest_TestNG_Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/TestNG/LoginTest_TestNG_Parameterized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Wait/AlertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Wait/Calendar_Automation_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Wait/Explicit_Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Wait/Header_Automation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Wait/Implicit_Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/seleniumGrid/Grid_Test_Chrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/seleniumGrid/Grid_Test_FireFox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/seleniumGrid/Grid_Test_IE.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +47,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="364">
               <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
             </state>
           </provider>
@@ -37,71 +56,45 @@
       <file leaf-file-name="testing.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
               <folding>
-                <marker date="1529480521079" expanded="true" signature="287:356" ph="..." />
+                <marker date="1529586557677" expanded="true" signature="328:397" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid_Test_FireFox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_FireFox.java">
+      <file leaf-file-name="docker-compose-swarm.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose-swarm.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest_TestNG_DataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_DataProvider.java">
+      <file leaf-file-name="Swarm_Test_FireFox.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="96" />
+            <state relative-caret-position="329">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid_Test_IE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_IE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hubConfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hubConfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node2.json">
+      <file leaf-file-name="Swarm_Test_FireFox2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox2.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="node3.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node3.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Swarm_Test_FireFox3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -146,13 +139,20 @@
         <option value="$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_Dependency.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_Parameterized.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/DataDrivenFramework/Postgres/DB_Data_Driven_Framework.java" />
-        <option value="$PROJECT_DIR$/testing.xml" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_DataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_FireFox.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_Chrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_IE.java" />
         <option value="$PROJECT_DIR$/hubConfig.json" />
         <option value="$PROJECT_DIR$/node1.json" />
+        <option value="$PROJECT_DIR$/node2.json" />
+        <option value="$PROJECT_DIR$/node3.json" />
+        <option value="$PROJECT_DIR$/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/docker-compose-swarm.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox3.java" />
+        <option value="$PROJECT_DIR$/testing.xml" />
       </list>
     </option>
   </component>
@@ -177,7 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +218,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="DockerSwarm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maventestjaredscodejava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="seleniumGrid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,7 +242,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -245,19 +254,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jared\IdeaProjects\MavenTest" />
+      <recent name="C:\Users\Jared\IdeaProjects\MavenTest\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="selenium.DockerSwarm" />
       <recent name="selenium.seleniumGrid" />
       <recent name="selenium.TestNG" />
       <recent name="selenium.DataDrivenFramework" />
       <recent name="selenium.Wait" />
-      <recent name="selenium" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jared\IdeaProjects\MavenTest" />
-      <recent name="C:\Users\Jared\IdeaProjects\MavenTest\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Grid_Test_IE (2)">
+  <component name="RunManager" selected="TestNG.Swarm_Test_FireFox">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -292,51 +301,16 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Grid_Test_Chrome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Jared/IdeaProjects/MavenTest/testing.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.seleniumGrid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="selenium.seleniumGrid" />
-      <option name="MAIN_CLASS_NAME" value="selenium.seleniumGrid.Grid_Test_Chrome" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Grid_Test_FireFox.Login_Test_FF" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.seleniumGrid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="selenium.seleniumGrid" />
-      <option name="MAIN_CLASS_NAME" value="selenium.seleniumGrid.Grid_Test_FireFox" />
-      <option name="METHOD_NAME" value="Login_Test_FF" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -437,6 +411,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Swarm_Test_FireFox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.DockerSwarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="selenium.DockerSwarm" />
+      <option name="MAIN_CLASS_NAME" value="selenium.DockerSwarm.Swarm_Test_FireFox" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -460,19 +463,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Grid_Test_FireFox.Login_Test_FF" />
-      <item itemvalue="TestNG.Grid_Test_Chrome" />
       <item itemvalue="TestNG.Grid_Test_IE" />
       <item itemvalue="TestNG.Grid_Test_IE (1)" />
       <item itemvalue="TestNG.Grid_Test_IE (2)" />
+      <item itemvalue="TestNG.C:/Users/Jared/IdeaProjects/MavenTest/testing.xml" />
+      <item itemvalue="TestNG.Swarm_Test_FireFox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Swarm_Test_FireFox" />
+        <item itemvalue="TestNG.C:/Users/Jared/IdeaProjects/MavenTest/testing.xml" />
         <item itemvalue="TestNG.Grid_Test_IE (2)" />
         <item itemvalue="TestNG.Grid_Test_IE (1)" />
         <item itemvalue="TestNG.Grid_Test_IE" />
-        <item itemvalue="TestNG.Grid_Test_Chrome" />
-        <item itemvalue="TestNG.Grid_Test_FireFox.Login_Test_FF" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Grid_Test_FireFox_(4) - 2018.06.20 at 02h 35m 16s.xml">
-      <configuration name="Grid_Test_FireFox (4)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Grid_Test_FireFox - 2018.06.20 at 02h 35m 51s.xml">
-      <configuration name="Grid_Test_FireFox" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Grid_Test_FireFox_(5) - 2018.06.20 at 02h 44m 32s.xml">
       <configuration name="Grid_Test_FireFox (5)" configurationId="TestNG" />
     </history-entry>
@@ -520,6 +517,12 @@
     <history-entry file="Grid_Test_IE_(2) - 2018.06.20 at 03h 06m 12s.xml">
       <configuration name="Grid_Test_IE (2)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Jared_IdeaProjects_MavenTest_testing_xml - 2018.06.21 at 06h 16m 11s.xml">
+      <configuration name="C:/Users/Jared/IdeaProjects/MavenTest/testing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Swarm_Test_FireFox - 2018.06.21 at 06h 22m 58s.xml">
+      <configuration name="Swarm_Test_FireFox" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -537,7 +540,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -561,13 +564,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_Parameterized.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -580,7 +576,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1529480521079" expanded="true" signature="287:356" ph="..." />
+            <marker date="1529586557677" expanded="true" signature="328:397" ph="..." />
           </folding>
         </state>
       </provider>
@@ -805,23 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <marker date="1529480521079" expanded="true" signature="287:356" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_Dependency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -841,18 +820,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_FireFox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="85">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_DataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -863,32 +835,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestNG/LoginTest_TestNG_DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/seleniumGrid/Grid_Test_IE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        <state relative-caret-position="17">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="73" column="64" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hubConfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node1.json">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node2.json">
+    <entry file="file://$PROJECT_DIR$/docker-compose-swarm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox2.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node3.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <marker date="1529586557677" expanded="true" signature="328:397" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/DockerSwarm/Swarm_Test_FireFox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
